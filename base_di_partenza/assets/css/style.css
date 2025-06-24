@@ -101,13 +101,13 @@ main {
 }
 
 .fixed-down, .fixed-up {
-  position: fixed;
+    position: fixed;
     color: red;
     transform: scale(2);
     background-color: rgb(255 255 255 / 0.5);
     border: 2px solid white;
     padding: 0.5em;
-    border-radius: 30%;
+    border-radius: 15%;
     right: 10px;
     bottom: 5%;
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.16);
@@ -153,15 +153,14 @@ aside div .fa-tag {
   .fixed-up {
   color: blue;
   bottom: auto;
-  z-index: 2;
 }
 
 .fa-calendar-alt {
-  top: 15%;
+  top: 17%;
 }
 
 .fa-plus-square {
-  top: 3%;
+  top: 5%;
 }
 }
 
@@ -238,6 +237,7 @@ h1 + p {
     font-size: 1.8rem;
     font-weight: 700;
   }
+
 }
 
 @media screen and (min-width: 500px) {
